@@ -1,0 +1,6 @@
+services:
+  route-planning:
+    build: .
+    container_name: route-planning
+    ports:
+      - "8000:8000"
